@@ -33,12 +33,13 @@ The code in each project is kept as it was submitted or last worked on. I've onl
 | [smaller-exercises](smaller-exercises/) | Earlier coursework and practice: intro Python, OOP in Java, algorithm practice, LRU page replacement. | Python, Java | 2023–2025 |
 
 ## Skills shown
-- **Languages:** Java, Python, C#, JavaScript (React), SQL, Clingo (ASP), GLSL, MIPS assembly
-- **Concurrency and parallelism:** threads, Fork/Join, latches, monitors, asyncio
+- **Languages:** Java, Python, SQL, Clingo (ASP)
+- **Concurrency and parallelism:** threads, Fork/Join, latches, monitors
 - **Networking and security:** sockets (TCP/UDP), custom protocol design, WireGuard/Noise cryptography
-- **Graphics and games:** OpenGL/GLSL, Unity
 - **Logic and AI:** non-monotonic reasoning (KLM, Rational Closure), SAT solving, answer set programming
-- **Engineering practice:** Git and GitHub team workflows (branches, PRs), CI linting, unit tests (pytest, JUnit), Maven, Makefiles
+- **Engineering practice:** Git and GitHub team workflows (branches, PRs), unit tests (pytest, JUnit), Makefiles
+
+**Built with AI assistance:** some projects use technologies I worked in mainly through AI-assisted development (Claude) rather than in depth: C#/Unity, JavaScript/React, GLSL/OpenGL, MIPS assembly, asyncio/PyQt6, Maven and CI linting. I can explain how that code works, but I don't list these as core skills.
 
 ## Contact
 Cape Town, South Africa · [GitHub](https://github.com/Danslez148)
