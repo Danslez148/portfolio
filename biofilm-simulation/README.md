@@ -2,7 +2,7 @@
 
 An agent-based simulation of how bacterial biofilms grow. Bacteria move, divide and secrete EPS (extracellular polymeric substance) particles in a 2D environment with a diffusing nutrient field. The results are analysed and visualised as images, video and clusters.
 
-**Context:** CSC3003S Capstone Project, UCT (2025). Team of 3. We ran it as a full software engineering project: scope, risk and role documents, use-case narratives, a test strategy, a Gantt plan, weekly progress reports, and two prototypes. This is the final code from our team GitLab repository. The team's original run notes are in `README_original.md`.
+**Context:** CSC3003S Capstone Project, UCT (2025). Team of 3: Sarah-Jane Marais, Ethan Bain and me. We ran it as a full software engineering project: scope, risk and role documents, use-case narratives, a test strategy, a Gantt plan, weekly progress reports, and two prototypes. This is the final code from our team GitLab repository. The team's original run notes are in `README_original.md`.
 
 ## Structure
 | Folder | Contents |
