@@ -1,4 +1,4 @@
-> **Portfolio context:** CSC4026Z Networks, UCT Honours (2026). Team project with Tadiwanashe Nyakonda and Jaylyn Bhula. Original repo: [TADIWABNYAKS/WireguardChat](https://github.com/TADIWABNYAKS/WireguardChat).
+> **Portfolio context:** CSC4026Z Network Security, UCT Honours (2026). Team project with Tadiwanashe Nyakonda and Jaylyn Bhula. Original repo: [TADIWABNYAKS/WireguardChat](https://github.com/TADIWABNYAKS/WireguardChat).
 > **My contribution:** the asyncio + PyQt6 controller (integrating async network loops with the UI), local message stores for DMs and channels, and UI layout and bug fixes.
 > Secrets (`.env`, keys) and the virtual environment are not included. See setup step 4 below.
 
