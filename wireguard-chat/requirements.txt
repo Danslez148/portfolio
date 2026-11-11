@@ -1,0 +1,9 @@
+PyQt6 
+#asyncio is already included in base python 
+qasync 
+msgpack
+python-dotenv
+#cryptography libs
+cryptography
+PyNaCl
+pytest

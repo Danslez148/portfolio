@@ -1,0 +1,29 @@
+commit 74b3d3d1c2685ff205d78455cb77c1dbe8ed7439 (HEAD -> master)
+Author: Daniel Schlesinger <schdan066@myuct.ac.za>
+Date:   Mon Sep 9 12:11:18 2024 +0200
+
+    final solution with correct implementation
+
+commit 88bc10de7de61145e88ccaa9fcd153529b34cb3f
+Author: Daniel Schlesinger <schdan066@myuct.ac.za>
+Date:   Mon Sep 9 11:34:51 2024 +0200
+
+    finished implementing the relay mechanics
+
+commit 8e4fc49def798af135f963d796eb4ad9978f7dc2
+Author: Daniel Schlesinger <schdan066@myuct.ac.za>
+Date:   Mon Sep 9 17:38:52 2024 +0200
+
+    fixed the race start latch
+
+commit a932154f7fe2a70f5de4ec2cab4d44eacbef1899
+Author: Daniel Schlesinger <schdan066@myuct.ac.za>
+Date:   Sun Sep 8 17:03:52 2024 +0200
+
+    fixed entrance to stadium
+
+commit cb8ee2ff4d2795ebe7530727e63b8ba47cc6cb19
+Author: Daniel Schlesinger <schdan066@myuct.ac.za>
+Date:   Sat Sep 7 16:27:16 2024 +0200
+
+    add files to project and start

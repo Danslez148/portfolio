@@ -1,0 +1,9 @@
+*.class
+*.pyc
+__pycache__/
+bin/
+.env
+venv/
+.venv/
+.DS_Store
+!biofilm-simulation/Prototype_0/bin/

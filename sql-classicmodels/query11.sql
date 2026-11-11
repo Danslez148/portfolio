@@ -1,0 +1,1 @@
+SELECT officeCode, COALESCE(state, country, city) AS location FROM offices;

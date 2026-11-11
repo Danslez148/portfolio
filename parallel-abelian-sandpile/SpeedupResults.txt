@@ -1,0 +1,58 @@
+MY LAPTOP
+
+Serial:
+
+4x4 all 4
+Number of steps to stable state: 4
+Time: 0 ms
+
+16x16 all 4
+Number of steps to stable state: 67
+Time: 5 ms
+
+64x64 all 4
+Number of steps to stable state: 1092
+Time: 95 ms
+
+256x256 all 4
+Number of steps to stable state: 17452
+Time: 6322 ms
+
+1024x1024 all 4
+Number of steps to stable state: 277128
+Time: 1026645 ms
+
+Parallel:
+Boundary = 42
+4x4 all 4
+Number of steps to stable state: 4
+Time: 3 ms
+
+16x16 all 4
+Number of steps to stable state: 67
+Time: 14 ms
+
+64x64 all 4
+Number of steps to stable state: 1092
+Time: 156 ms
+
+256x256 all 4
+Number of steps to stable state: 17452
+Time: 4987 ms
+
+1024x1024 all 4
+
+
+20: 511086 ms
+42: 502305 ms
+60: 531187 ms
+128: 508666 ms
+
+50: 543048 ms
+100: 499693 ms
+200: 481681 ms
+250: 458351 ms
+300: 598143 ms
+
+
+DYLANS PC

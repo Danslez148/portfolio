@@ -1,0 +1,1 @@
+The business is selling direct to consumer #B2c

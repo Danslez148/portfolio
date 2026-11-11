@@ -1,0 +1,59 @@
+commit 30252b4efb4fbff6bb119581c6b64288fb0a06a6
+Author: Danslez148 <danslez123@gmail.com>
+Date:   Mon May 5 20:58:07 2025 +0200
+
+    final
+
+commit 02853eb1f9c7ae739d0951960c759d965c67d805
+Author: Danslez148 <danslez123@gmail.com>
+Date:   Mon May 5 20:55:40 2025 +0200
+
+    wrote the report
+
+commit 71612ec8e410a1a8f95de99f009cf9068ca745c7
+Author: Danslez148 <danslez123@gmail.com>
+Date:   Mon May 5 18:36:31 2025 +0200
+
+    final touches and comments
+
+commit 7ba58c4aaa721e8a040381c696fa59ee96795c82
+Author: Danslez148 <danslez123@gmail.com>
+Date:   Mon May 5 14:33:53 2025 +0200
+
+    added methods and class to write measured values to csv files
+
+commit c43166e3cd20b9724ee3af8dd2b7057f22897099
+Author: Danslez148 <danslez123@gmail.com>
+Date:   Mon May 5 11:35:05 2025 +0200
+
+    added methods to calculate throughput values with a sliding window
+
+commit fd8311e3c667ce3364225c50a9261a2ca7bf0738
+Author: Danslez148 <danslez123@gmail.com>
+Date:   Mon May 5 10:31:41 2025 +0200
+
+    added throughput measuring methods
+
+commit 15f9b58f9148974d9e81504472602d59db203bf7
+Author: Danslez148 <danslez123@gmail.com>
+Date:   Mon May 5 10:19:08 2025 +0200
+
+    added implementation to measure barman utilization %
+
+commit 535c7d4f272e45b37deaacd2c7a58622239bac14
+Author: Danslez148 <danslez123@gmail.com>
+Date:   Mon May 5 09:17:10 2025 +0200
+
+    implemented waiting time calculation
+
+commit 49595f26361154037ec3e71d94ed81db764e7a8d
+Author: Danslez148 <danslez123@gmail.com>
+Date:   Mon May 5 08:23:41 2025 +0200
+
+    added class to write resullts to .csv file
+
+commit 6aecab84408500b7c973b86c66af4308ee0738c0
+Author: Danslez148 <danslez123@gmail.com>
+Date:   Sun May 4 12:20:30 2025 +0200
+
+    initial commit
