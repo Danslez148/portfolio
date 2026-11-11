@@ -1,0 +1,11 @@
+Program
+	=
+		ID,val
+		BINARY_LITERAL,1100
+	=
+		ID,result
+		M
+			ID,val
+			S
+				BINARY_LITERAL,111000
+				BINARY_LITERAL,110001

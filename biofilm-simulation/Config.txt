@@ -1,0 +1,5 @@
+motility : 0
+samecellem : 40000
+diffcellem : 70000
+maxparticles : 25000
+simulationtime : 1000000000

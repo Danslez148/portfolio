@@ -1,0 +1,354 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Unused terminals:
+
+    COMMENT
+    WHITESPACE
+
+Grammar
+
+Rule 0     S' -> program
+Rule 1     program -> statement_list
+Rule 2     statement_list -> statement_list statement
+Rule 3     statement_list -> empty
+Rule 4     statement -> ID EQUALS expression
+Rule 5     expression -> expression A term
+Rule 6     expression -> expression S term
+Rule 7     expression -> term
+Rule 8     term -> term M factor
+Rule 9     term -> term D factor
+Rule 10    term -> factor
+Rule 11    factor -> LPARENTHESIS expression RPARENTHESIS
+Rule 12    factor -> BINARY_LITERAL
+Rule 13    factor -> ID
+Rule 14    empty -> <empty>
+
+Terminals, with rules where they appear
+
+A                    : 5
+BINARY_LITERAL       : 12
+COMMENT              : 
+D                    : 9
+EQUALS               : 4
+ID                   : 4 13
+LPARENTHESIS         : 11
+M                    : 8
+RPARENTHESIS         : 11
+S                    : 6
+WHITESPACE           : 
+error                : 
+
+Nonterminals, with rules where they appear
+
+empty                : 3
+expression           : 4 5 6 11
+factor               : 8 9 10
+program              : 0
+statement            : 2
+statement_list       : 1 2
+term                 : 5 6 7 8 9
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . program
+    (1) program -> . statement_list
+    (2) statement_list -> . statement_list statement
+    (3) statement_list -> . empty
+    (14) empty -> .
+
+    ID              reduce using rule 14 (empty -> .)
+    $end            reduce using rule 14 (empty -> .)
+
+    program                        shift and go to state 1
+    statement_list                 shift and go to state 2
+    empty                          shift and go to state 3
+
+state 1
+
+    (0) S' -> program .
+
+
+
+state 2
+
+    (1) program -> statement_list .
+    (2) statement_list -> statement_list . statement
+    (4) statement -> . ID EQUALS expression
+
+    $end            reduce using rule 1 (program -> statement_list .)
+    ID              shift and go to state 5
+
+    statement                      shift and go to state 4
+
+state 3
+
+    (3) statement_list -> empty .
+
+    ID              reduce using rule 3 (statement_list -> empty .)
+    $end            reduce using rule 3 (statement_list -> empty .)
+
+
+state 4
+
+    (2) statement_list -> statement_list statement .
+
+    ID              reduce using rule 2 (statement_list -> statement_list statement .)
+    $end            reduce using rule 2 (statement_list -> statement_list statement .)
+
+
+state 5
+
+    (4) statement -> ID . EQUALS expression
+
+    EQUALS          shift and go to state 6
+
+
+state 6
+
+    (4) statement -> ID EQUALS . expression
+    (5) expression -> . expression A term
+    (6) expression -> . expression S term
+    (7) expression -> . term
+    (8) term -> . term M factor
+    (9) term -> . term D factor
+    (10) term -> . factor
+    (11) factor -> . LPARENTHESIS expression RPARENTHESIS
+    (12) factor -> . BINARY_LITERAL
+    (13) factor -> . ID
+
+    LPARENTHESIS    shift and go to state 11
+    BINARY_LITERAL  shift and go to state 12
+    ID              shift and go to state 7
+
+    expression                     shift and go to state 8
+    term                           shift and go to state 9
+    factor                         shift and go to state 10
+
+state 7
+
+    (13) factor -> ID .
+
+    M               reduce using rule 13 (factor -> ID .)
+    D               reduce using rule 13 (factor -> ID .)
+    A               reduce using rule 13 (factor -> ID .)
+    S               reduce using rule 13 (factor -> ID .)
+    ID              reduce using rule 13 (factor -> ID .)
+    $end            reduce using rule 13 (factor -> ID .)
+    RPARENTHESIS    reduce using rule 13 (factor -> ID .)
+
+
+state 8
+
+    (4) statement -> ID EQUALS expression .
+    (5) expression -> expression . A term
+    (6) expression -> expression . S term
+
+    ID              reduce using rule 4 (statement -> ID EQUALS expression .)
+    $end            reduce using rule 4 (statement -> ID EQUALS expression .)
+    A               shift and go to state 13
+    S               shift and go to state 14
+
+
+state 9
+
+    (7) expression -> term .
+    (8) term -> term . M factor
+    (9) term -> term . D factor
+
+    A               reduce using rule 7 (expression -> term .)
+    S               reduce using rule 7 (expression -> term .)
+    ID              reduce using rule 7 (expression -> term .)
+    $end            reduce using rule 7 (expression -> term .)
+    RPARENTHESIS    reduce using rule 7 (expression -> term .)
+    M               shift and go to state 15
+    D               shift and go to state 16
+
+
+state 10
+
+    (10) term -> factor .
+
+    M               reduce using rule 10 (term -> factor .)
+    D               reduce using rule 10 (term -> factor .)
+    A               reduce using rule 10 (term -> factor .)
+    S               reduce using rule 10 (term -> factor .)
+    ID              reduce using rule 10 (term -> factor .)
+    $end            reduce using rule 10 (term -> factor .)
+    RPARENTHESIS    reduce using rule 10 (term -> factor .)
+
+
+state 11
+
+    (11) factor -> LPARENTHESIS . expression RPARENTHESIS
+    (5) expression -> . expression A term
+    (6) expression -> . expression S term
+    (7) expression -> . term
+    (8) term -> . term M factor
+    (9) term -> . term D factor
+    (10) term -> . factor
+    (11) factor -> . LPARENTHESIS expression RPARENTHESIS
+    (12) factor -> . BINARY_LITERAL
+    (13) factor -> . ID
+
+    LPARENTHESIS    shift and go to state 11
+    BINARY_LITERAL  shift and go to state 12
+    ID              shift and go to state 7
+
+    expression                     shift and go to state 17
+    term                           shift and go to state 9
+    factor                         shift and go to state 10
+
+state 12
+
+    (12) factor -> BINARY_LITERAL .
+
+    M               reduce using rule 12 (factor -> BINARY_LITERAL .)
+    D               reduce using rule 12 (factor -> BINARY_LITERAL .)
+    A               reduce using rule 12 (factor -> BINARY_LITERAL .)
+    S               reduce using rule 12 (factor -> BINARY_LITERAL .)
+    ID              reduce using rule 12 (factor -> BINARY_LITERAL .)
+    $end            reduce using rule 12 (factor -> BINARY_LITERAL .)
+    RPARENTHESIS    reduce using rule 12 (factor -> BINARY_LITERAL .)
+
+
+state 13
+
+    (5) expression -> expression A . term
+    (8) term -> . term M factor
+    (9) term -> . term D factor
+    (10) term -> . factor
+    (11) factor -> . LPARENTHESIS expression RPARENTHESIS
+    (12) factor -> . BINARY_LITERAL
+    (13) factor -> . ID
+
+    LPARENTHESIS    shift and go to state 11
+    BINARY_LITERAL  shift and go to state 12
+    ID              shift and go to state 7
+
+    term                           shift and go to state 18
+    factor                         shift and go to state 10
+
+state 14
+
+    (6) expression -> expression S . term
+    (8) term -> . term M factor
+    (9) term -> . term D factor
+    (10) term -> . factor
+    (11) factor -> . LPARENTHESIS expression RPARENTHESIS
+    (12) factor -> . BINARY_LITERAL
+    (13) factor -> . ID
+
+    LPARENTHESIS    shift and go to state 11
+    BINARY_LITERAL  shift and go to state 12
+    ID              shift and go to state 7
+
+    term                           shift and go to state 19
+    factor                         shift and go to state 10
+
+state 15
+
+    (8) term -> term M . factor
+    (11) factor -> . LPARENTHESIS expression RPARENTHESIS
+    (12) factor -> . BINARY_LITERAL
+    (13) factor -> . ID
+
+    LPARENTHESIS    shift and go to state 11
+    BINARY_LITERAL  shift and go to state 12
+    ID              shift and go to state 7
+
+    factor                         shift and go to state 20
+
+state 16
+
+    (9) term -> term D . factor
+    (11) factor -> . LPARENTHESIS expression RPARENTHESIS
+    (12) factor -> . BINARY_LITERAL
+    (13) factor -> . ID
+
+    LPARENTHESIS    shift and go to state 11
+    BINARY_LITERAL  shift and go to state 12
+    ID              shift and go to state 7
+
+    factor                         shift and go to state 21
+
+state 17
+
+    (11) factor -> LPARENTHESIS expression . RPARENTHESIS
+    (5) expression -> expression . A term
+    (6) expression -> expression . S term
+
+    RPARENTHESIS    shift and go to state 22
+    A               shift and go to state 13
+    S               shift and go to state 14
+
+
+state 18
+
+    (5) expression -> expression A term .
+    (8) term -> term . M factor
+    (9) term -> term . D factor
+
+    A               reduce using rule 5 (expression -> expression A term .)
+    S               reduce using rule 5 (expression -> expression A term .)
+    ID              reduce using rule 5 (expression -> expression A term .)
+    $end            reduce using rule 5 (expression -> expression A term .)
+    RPARENTHESIS    reduce using rule 5 (expression -> expression A term .)
+    M               shift and go to state 15
+    D               shift and go to state 16
+
+
+state 19
+
+    (6) expression -> expression S term .
+    (8) term -> term . M factor
+    (9) term -> term . D factor
+
+    A               reduce using rule 6 (expression -> expression S term .)
+    S               reduce using rule 6 (expression -> expression S term .)
+    ID              reduce using rule 6 (expression -> expression S term .)
+    $end            reduce using rule 6 (expression -> expression S term .)
+    RPARENTHESIS    reduce using rule 6 (expression -> expression S term .)
+    M               shift and go to state 15
+    D               shift and go to state 16
+
+
+state 20
+
+    (8) term -> term M factor .
+
+    M               reduce using rule 8 (term -> term M factor .)
+    D               reduce using rule 8 (term -> term M factor .)
+    A               reduce using rule 8 (term -> term M factor .)
+    S               reduce using rule 8 (term -> term M factor .)
+    ID              reduce using rule 8 (term -> term M factor .)
+    $end            reduce using rule 8 (term -> term M factor .)
+    RPARENTHESIS    reduce using rule 8 (term -> term M factor .)
+
+
+state 21
+
+    (9) term -> term D factor .
+
+    M               reduce using rule 9 (term -> term D factor .)
+    D               reduce using rule 9 (term -> term D factor .)
+    A               reduce using rule 9 (term -> term D factor .)
+    S               reduce using rule 9 (term -> term D factor .)
+    ID              reduce using rule 9 (term -> term D factor .)
+    $end            reduce using rule 9 (term -> term D factor .)
+    RPARENTHESIS    reduce using rule 9 (term -> term D factor .)
+
+
+state 22
+
+    (11) factor -> LPARENTHESIS expression RPARENTHESIS .
+
+    M               reduce using rule 11 (factor -> LPARENTHESIS expression RPARENTHESIS .)
+    D               reduce using rule 11 (factor -> LPARENTHESIS expression RPARENTHESIS .)
+    A               reduce using rule 11 (factor -> LPARENTHESIS expression RPARENTHESIS .)
+    S               reduce using rule 11 (factor -> LPARENTHESIS expression RPARENTHESIS .)
+    ID              reduce using rule 11 (factor -> LPARENTHESIS expression RPARENTHESIS .)
+    $end            reduce using rule 11 (factor -> LPARENTHESIS expression RPARENTHESIS .)
+    RPARENTHESIS    reduce using rule 11 (factor -> LPARENTHESIS expression RPARENTHESIS .)
+

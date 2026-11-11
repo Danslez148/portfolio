@@ -6,4 +6,4 @@ bin/
 venv/
 .venv/
 .DS_Store
-!biofilm-simulation/Prototype_0/bin/
+!biofilm-simulation/functionalPrototype/bin/

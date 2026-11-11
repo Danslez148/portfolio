@@ -1,0 +1,5 @@
+/* doing some 
+calculations */
+val = 1100
+result = val M (111000 S 110001) // answer
+

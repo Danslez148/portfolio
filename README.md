@@ -11,8 +11,10 @@ The code in each project is kept as it was submitted or last worked on. I've onl
 |---|---|---|---|
 | [wireguard-chat](wireguard-chat/) | Encrypted multi-user chat client with my own implementation of the WireGuard / Noise IK handshake. Team of 3; I built the async UI controller and message stores. | Python, asyncio, PyQt6, CI linting | 2026 |
 | [IntelAfrica / AfriMarket prototype](https://github.com/Danslez148/NVP_prototype) ↗ | Market-search and trading dashboard for African commerce, with an interactive D3 map. [Live demo](https://intelafrica-eight.vercel.app) | React, Vite, D3 | 2026 |
-| [house-of-gains-unity](house-of-gains-unity/) | Casino-themed mini-games (Higher/Lower, Roulette) and an in-game economy for a Unity game. | C#, Unity | 2026 |
-| [biofilm-simulation](biofilm-simulation/) | Third-year capstone: agent-based simulation of bacterial biofilm growth with multithreaded workers. Team of 3. | Java | 2025 |
+| [house-of-gains-unity](house-of-gains-unity/) | Casino-themed mini-games (Higher/Lower, Roulette) and an in-game economy for a Unity game. Team of 4; my scripts. | C#, Unity | 2026 |
+| [asp-dungeon-generator](asp-dungeon-generator/) | Procedural, always-solvable dungeon levels generated with Answer Set Programming, played in a terminal roguelike. | Clingo (ASP), Python, curses | 2026 |
+| [opengl-solar-system](opengl-solar-system/) | Animated, textured Sun–Earth–Moon scene with GLSL shaders and lighting. | Python, OpenGL, GLSL | 2026 |
+| [biofilm-simulation](biofilm-simulation/) | Third-year capstone: multithreaded agent-based simulation of bacterial biofilm growth, with JUnit tests and Python cluster analysis. Team of 3. | Java, Maven, Python | 2025 |
 | [p2p-file-sharing](p2p-file-sharing/) | BitTorrent-style peer-to-peer file sharing with a tracker, seeders and leechers, plus a GUI. Team of 3. | Python, TCP/UDP sockets | 2025 |
 | [bar-scheduling-simulation](bar-scheduling-simulation/) | Multithreaded simulation of FCFS, SJF and Round-Robin CPU scheduling. I built the performance measurement and analysis. | Java concurrency | 2025 |
 | [parallel-abelian-sandpile](parallel-abelian-sandpile/) | Serial and Fork/Join parallel versions of a sandpile cellular automaton, with speed-up benchmarks. | Java, Fork/Join | 2024 |
@@ -26,14 +28,15 @@ The code in each project is kept as it was submitted or last worked on. I've onl
 | [graph-simulator](graph-simulator/) | Delivery dispatch simulator that uses Dijkstra's shortest paths to match clients with the nearest taxis and shops. | Java | 2024 |
 | [sql-classicmodels](sql-classicmodels/) | 20 SQL queries (joins, aggregation, sub-queries) on the ClassicModels sample database. | SQL / MySQL | 2024 |
 | [mips-assembly](mips-assembly/) | MIPS assembly programs, including a WAV file header parser. | MIPS | 2024 |
-| [ply-lexer](ply-lexer/) | Lexical analyser for a small message language. | Python, PLY | 2026 |
+| [compilers-ply-bla](compilers-ply-bla/) | Compiler front-end for a small language: lexer, parser (AST), evaluator and error reporting. | Python, PLY | 2026 |
 | [smaller-exercises](smaller-exercises/) | Earlier coursework and practice: intro Python, OOP in Java, algorithm practice, LRU page replacement. | Python, Java | 2023–2025 |
 
 ## Skills shown
-- **Languages:** Java, Python, C#, JavaScript (React), SQL, MIPS assembly
+- **Languages:** Java, Python, C#, JavaScript (React), SQL, Clingo (ASP), GLSL, MIPS assembly
 - **Concurrency and parallelism:** threads, Fork/Join, latches, monitors, asyncio
 - **Networking and security:** sockets (TCP/UDP), custom protocol design, WireGuard/Noise cryptography
-- **Engineering practice:** Git and GitHub team workflows (branches, PRs), CI linting, unit tests (pytest, JUnit), Makefiles
+- **Graphics, games and AI:** OpenGL/GLSL, Unity, answer set programming
+- **Engineering practice:** Git and GitHub team workflows (branches, PRs), CI linting, unit tests (pytest, JUnit), Maven, Makefiles
 
 ## Contact
 Cape Town, South Africa · [GitHub](https://github.com/Danslez148)

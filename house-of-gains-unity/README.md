@@ -2,7 +2,7 @@
 
 Gameplay scripts for *House of Gains*, a casino-themed Unity game. The player climbs floors by earning chips in mini-games. These scripts implement the mini-game framework, the in-game economy and two of the games.
 
-**Context:** Game Design module, UCT Honours (2026).
+**Context:** Game Design module, UCT Honours (2026). Team project with 3 teammates. This folder contains the scripts I wrote.
 
 ## Contents
 | Folder | Contents |

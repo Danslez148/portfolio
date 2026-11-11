@@ -1,0 +1,10 @@
+Program
+	=
+		ID,this1
+		BINARY_LITERAL,1
+	=
+		ID,_that
+		BINARY_LITERAL,10
+	=
+		ID,an0ther
+		BINARY_LITERAL,11

@@ -1,0 +1,6 @@
+// this is a comment
+/* this is another comment */
+/* this is one more
+comment which should
+be recognised */
+a=1

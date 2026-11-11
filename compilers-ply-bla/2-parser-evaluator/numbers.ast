@@ -1,0 +1,10 @@
+Program
+	=
+		ID,val1
+		BINARY_LITERAL,11001100
+	=
+		ID,val2
+		BINARY_LITERAL,01010
+	=
+		ID,val3
+		BINARY_LITERAL,-101
