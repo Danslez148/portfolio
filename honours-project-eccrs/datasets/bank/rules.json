@@ -1,0 +1,708 @@
+{
+  "dataset": "bank",
+  "n_rules": 21,
+  "mode": "tree",
+  "rules": [
+    {
+      "idx": 0,
+      "label": 1,
+      "support": 408,
+      "correct": 324,
+      "body": [
+        {
+          "feat": "a(15,9)",
+          "val": 0
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,1)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,2)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,4)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(15,9)=0 & a(16,3)=1 & a(4,1)=0 & a(4,2)=0 & a(4,4)=1 & a(4,5)=0 THEN y=1"
+    },
+    {
+      "idx": 1,
+      "label": 1,
+      "support": 300,
+      "correct": 199,
+      "body": [
+        {
+          "feat": "a(15,9)",
+          "val": 0
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,1)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,2)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,4)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(15,9)=0 & a(16,3)=1 & a(4,1)=0 & a(4,2)=0 & a(4,4)=0 & a(4,5)=0 THEN y=1"
+    },
+    {
+      "idx": 2,
+      "label": 1,
+      "support": 115,
+      "correct": 97,
+      "body": [
+        {
+          "feat": "a(10,2)",
+          "val": 0
+        },
+        {
+          "feat": "a(12,2)",
+          "val": 0
+        },
+        {
+          "feat": "a(14,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 1
+        },
+        {
+          "feat": "a(7,2)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(10,2)=0 & a(12,2)=0 & a(14,3)=0 & a(16,3)=1 & a(4,5)=1 & a(7,2)=0 THEN y=1"
+    },
+    {
+      "idx": 3,
+      "label": 1,
+      "support": 74,
+      "correct": 68,
+      "body": [
+        {
+          "feat": "a(10,2)",
+          "val": 1
+        },
+        {
+          "feat": "a(12,2)",
+          "val": 0
+        },
+        {
+          "feat": "a(14,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 1
+        },
+        {
+          "feat": "a(7,2)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(10,2)=1 & a(12,2)=0 & a(14,3)=0 & a(16,3)=1 & a(4,5)=1 & a(7,2)=0 THEN y=1"
+    },
+    {
+      "idx": 4,
+      "label": 1,
+      "support": 84,
+      "correct": 67,
+      "body": [
+        {
+          "feat": "a(12,1)",
+          "val": 1
+        },
+        {
+          "feat": "a(14,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(15,1)",
+          "val": 1
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(3,5)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(12,1)=1 & a(14,3)=0 & a(15,1)=1 & a(16,3)=0 & a(3,5)=1 & a(4,5)=1 THEN y=1"
+    },
+    {
+      "idx": 5,
+      "label": 1,
+      "support": 98,
+      "correct": 55,
+      "body": [
+        {
+          "feat": "a(12,1)",
+          "val": 1
+        },
+        {
+          "feat": "a(14,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(15,1)",
+          "val": 1
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(3,5)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(12,1)=1 & a(14,3)=0 & a(15,1)=1 & a(16,3)=0 & a(3,5)=0 & a(4,5)=1 THEN y=1"
+    },
+    {
+      "idx": 6,
+      "label": 0,
+      "support": 65,
+      "correct": 42,
+      "body": [
+        {
+          "feat": "a(10,2)",
+          "val": 0
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,1)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,2)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 0
+        },
+        {
+          "feat": "a(9,2)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(10,2)=0 & a(16,3)=1 & a(4,1)=0 & a(4,2)=1 & a(4,5)=0 & a(9,2)=1 THEN y=0"
+    },
+    {
+      "idx": 7,
+      "label": 1,
+      "support": 55,
+      "correct": 37,
+      "body": [
+        {
+          "feat": "a(12,1)",
+          "val": 1
+        },
+        {
+          "feat": "a(15,9)",
+          "val": 1
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,1)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,2)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(12,1)=1 & a(15,9)=1 & a(16,3)=1 & a(4,1)=0 & a(4,2)=0 & a(4,5)=0 THEN y=1"
+    },
+    {
+      "idx": 8,
+      "label": 0,
+      "support": 51,
+      "correct": 35,
+      "body": [
+        {
+          "feat": "a(12,1)",
+          "val": 0
+        },
+        {
+          "feat": "a(15,9)",
+          "val": 1
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,1)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,2)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(12,1)=0 & a(15,9)=1 & a(16,3)=1 & a(4,1)=0 & a(4,2)=0 & a(4,5)=0 THEN y=0"
+    },
+    {
+      "idx": 9,
+      "label": 0,
+      "support": 61,
+      "correct": 34,
+      "body": [
+        {
+          "feat": "a(10,2)",
+          "val": 0
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,1)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,2)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 0
+        },
+        {
+          "feat": "a(9,2)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(10,2)=0 & a(16,3)=1 & a(4,1)=0 & a(4,2)=1 & a(4,5)=0 & a(9,2)=0 THEN y=0"
+    },
+    {
+      "idx": 10,
+      "label": 1,
+      "support": 182,
+      "correct": 122,
+      "body": [
+        {
+          "feat": "a(12,1)",
+          "val": 1
+        },
+        {
+          "feat": "a(14,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(15,1)",
+          "val": 1
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(12,1)=1 & a(14,3)=0 & a(15,1)=1 & a(16,3)=0 & a(4,5)=1 THEN y=1"
+    },
+    {
+      "idx": 11,
+      "label": 1,
+      "support": 84,
+      "correct": 66,
+      "body": [
+        {
+          "feat": "a(12,2)",
+          "val": 0
+        },
+        {
+          "feat": "a(14,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 1
+        },
+        {
+          "feat": "a(7,2)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(12,2)=0 & a(14,3)=0 & a(16,3)=1 & a(4,5)=1 & a(7,2)=1 THEN y=1"
+    },
+    {
+      "idx": 12,
+      "label": 0,
+      "support": 79,
+      "correct": 61,
+      "body": [
+        {
+          "feat": "a(10,2)",
+          "val": 1
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,1)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,2)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(10,2)=1 & a(16,3)=1 & a(4,1)=0 & a(4,2)=1 & a(4,5)=0 THEN y=0"
+    },
+    {
+      "idx": 13,
+      "label": 1,
+      "support": 64,
+      "correct": 49,
+      "body": [
+        {
+          "feat": "a(10,2)",
+          "val": 1
+        },
+        {
+          "feat": "a(12,2)",
+          "val": 1
+        },
+        {
+          "feat": "a(14,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(10,2)=1 & a(12,2)=1 & a(14,3)=0 & a(16,3)=1 & a(4,5)=1 THEN y=1"
+    },
+    {
+      "idx": 14,
+      "label": 1,
+      "support": 70,
+      "correct": 42,
+      "body": [
+        {
+          "feat": "a(10,2)",
+          "val": 0
+        },
+        {
+          "feat": "a(12,2)",
+          "val": 1
+        },
+        {
+          "feat": "a(14,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(10,2)=0 & a(12,2)=1 & a(14,3)=0 & a(16,3)=1 & a(4,5)=1 THEN y=1"
+    },
+    {
+      "idx": 15,
+      "label": 0,
+      "support": 205,
+      "correct": 137,
+      "body": [
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,1)",
+          "val": 0
+        },
+        {
+          "feat": "a(4,2)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(16,3)=1 & a(4,1)=0 & a(4,2)=1 & a(4,5)=0 THEN y=0"
+    },
+    {
+      "idx": 16,
+      "label": 1,
+      "support": 407,
+      "correct": 322,
+      "body": [
+        {
+          "feat": "a(14,3)",
+          "val": 0
+        },
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(14,3)=0 & a(16,3)=1 & a(4,5)=1 THEN y=1"
+    },
+    {
+      "idx": 17,
+      "label": 0,
+      "support": 83,
+      "correct": 72,
+      "body": [
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,1)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(16,3)=1 & a(4,1)=1 & a(4,5)=0 THEN y=0"
+    },
+    {
+      "idx": 18,
+      "label": 1,
+      "support": 1102,
+      "correct": 655,
+      "body": [
+        {
+          "feat": "a(16,3)",
+          "val": 1
+        },
+        {
+          "feat": "a(4,5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(16,3)=1 & a(4,5)=0 THEN y=1"
+    },
+    {
+      "idx": 19,
+      "label": 0,
+      "support": 36146,
+      "correct": 33858,
+      "body": [
+        {
+          "feat": "a(4,5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(4,5)=0 THEN y=0"
+    },
+    {
+      "idx": 20,
+      "label": 0,
+      "support": 9065,
+      "correct": 6064,
+      "body": [
+        {
+          "feat": "a(4,5)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(4,5)=1 THEN y=0"
+    }
+  ],
+  "exception_pairs": [
+    {
+      "general_rule_idx": 18,
+      "specific_rule_idx": 6,
+      "general_rule": "IF a(16,3)=1 & a(4,5)=0 THEN y=1",
+      "specific_rule": "IF a(10,2)=0 & a(16,3)=1 & a(4,1)=0 & a(4,2)=1 & a(4,5)=0 & a(9,2)=1 THEN y=0"
+    },
+    {
+      "general_rule_idx": 18,
+      "specific_rule_idx": 8,
+      "general_rule": "IF a(16,3)=1 & a(4,5)=0 THEN y=1",
+      "specific_rule": "IF a(12,1)=0 & a(15,9)=1 & a(16,3)=1 & a(4,1)=0 & a(4,2)=0 & a(4,5)=0 THEN y=0"
+    },
+    {
+      "general_rule_idx": 18,
+      "specific_rule_idx": 9,
+      "general_rule": "IF a(16,3)=1 & a(4,5)=0 THEN y=1",
+      "specific_rule": "IF a(10,2)=0 & a(16,3)=1 & a(4,1)=0 & a(4,2)=1 & a(4,5)=0 & a(9,2)=0 THEN y=0"
+    },
+    {
+      "general_rule_idx": 18,
+      "specific_rule_idx": 12,
+      "general_rule": "IF a(16,3)=1 & a(4,5)=0 THEN y=1",
+      "specific_rule": "IF a(10,2)=1 & a(16,3)=1 & a(4,1)=0 & a(4,2)=1 & a(4,5)=0 THEN y=0"
+    },
+    {
+      "general_rule_idx": 18,
+      "specific_rule_idx": 15,
+      "general_rule": "IF a(16,3)=1 & a(4,5)=0 THEN y=1",
+      "specific_rule": "IF a(16,3)=1 & a(4,1)=0 & a(4,2)=1 & a(4,5)=0 THEN y=0"
+    },
+    {
+      "general_rule_idx": 18,
+      "specific_rule_idx": 17,
+      "general_rule": "IF a(16,3)=1 & a(4,5)=0 THEN y=1",
+      "specific_rule": "IF a(16,3)=1 & a(4,1)=1 & a(4,5)=0 THEN y=0"
+    },
+    {
+      "general_rule_idx": 19,
+      "specific_rule_idx": 0,
+      "general_rule": "IF a(4,5)=0 THEN y=0",
+      "specific_rule": "IF a(15,9)=0 & a(16,3)=1 & a(4,1)=0 & a(4,2)=0 & a(4,4)=1 & a(4,5)=0 THEN y=1"
+    },
+    {
+      "general_rule_idx": 19,
+      "specific_rule_idx": 1,
+      "general_rule": "IF a(4,5)=0 THEN y=0",
+      "specific_rule": "IF a(15,9)=0 & a(16,3)=1 & a(4,1)=0 & a(4,2)=0 & a(4,4)=0 & a(4,5)=0 THEN y=1"
+    },
+    {
+      "general_rule_idx": 19,
+      "specific_rule_idx": 7,
+      "general_rule": "IF a(4,5)=0 THEN y=0",
+      "specific_rule": "IF a(12,1)=1 & a(15,9)=1 & a(16,3)=1 & a(4,1)=0 & a(4,2)=0 & a(4,5)=0 THEN y=1"
+    },
+    {
+      "general_rule_idx": 19,
+      "specific_rule_idx": 18,
+      "general_rule": "IF a(4,5)=0 THEN y=0",
+      "specific_rule": "IF a(16,3)=1 & a(4,5)=0 THEN y=1"
+    },
+    {
+      "general_rule_idx": 20,
+      "specific_rule_idx": 2,
+      "general_rule": "IF a(4,5)=1 THEN y=0",
+      "specific_rule": "IF a(10,2)=0 & a(12,2)=0 & a(14,3)=0 & a(16,3)=1 & a(4,5)=1 & a(7,2)=0 THEN y=1"
+    },
+    {
+      "general_rule_idx": 20,
+      "specific_rule_idx": 3,
+      "general_rule": "IF a(4,5)=1 THEN y=0",
+      "specific_rule": "IF a(10,2)=1 & a(12,2)=0 & a(14,3)=0 & a(16,3)=1 & a(4,5)=1 & a(7,2)=0 THEN y=1"
+    },
+    {
+      "general_rule_idx": 20,
+      "specific_rule_idx": 4,
+      "general_rule": "IF a(4,5)=1 THEN y=0",
+      "specific_rule": "IF a(12,1)=1 & a(14,3)=0 & a(15,1)=1 & a(16,3)=0 & a(3,5)=1 & a(4,5)=1 THEN y=1"
+    },
+    {
+      "general_rule_idx": 20,
+      "specific_rule_idx": 5,
+      "general_rule": "IF a(4,5)=1 THEN y=0",
+      "specific_rule": "IF a(12,1)=1 & a(14,3)=0 & a(15,1)=1 & a(16,3)=0 & a(3,5)=0 & a(4,5)=1 THEN y=1"
+    },
+    {
+      "general_rule_idx": 20,
+      "specific_rule_idx": 10,
+      "general_rule": "IF a(4,5)=1 THEN y=0",
+      "specific_rule": "IF a(12,1)=1 & a(14,3)=0 & a(15,1)=1 & a(16,3)=0 & a(4,5)=1 THEN y=1"
+    },
+    {
+      "general_rule_idx": 20,
+      "specific_rule_idx": 11,
+      "general_rule": "IF a(4,5)=1 THEN y=0",
+      "specific_rule": "IF a(12,2)=0 & a(14,3)=0 & a(16,3)=1 & a(4,5)=1 & a(7,2)=1 THEN y=1"
+    },
+    {
+      "general_rule_idx": 20,
+      "specific_rule_idx": 13,
+      "general_rule": "IF a(4,5)=1 THEN y=0",
+      "specific_rule": "IF a(10,2)=1 & a(12,2)=1 & a(14,3)=0 & a(16,3)=1 & a(4,5)=1 THEN y=1"
+    },
+    {
+      "general_rule_idx": 20,
+      "specific_rule_idx": 14,
+      "general_rule": "IF a(4,5)=1 THEN y=0",
+      "specific_rule": "IF a(10,2)=0 & a(12,2)=1 & a(14,3)=0 & a(16,3)=1 & a(4,5)=1 THEN y=1"
+    },
+    {
+      "general_rule_idx": 20,
+      "specific_rule_idx": 16,
+      "general_rule": "IF a(4,5)=1 THEN y=0",
+      "specific_rule": "IF a(14,3)=0 & a(16,3)=1 & a(4,5)=1 THEN y=1"
+    }
+  ]
+}

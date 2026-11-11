@@ -1,0 +1,237 @@
+{
+  "datasets": [
+    {
+      "name": "cancer",
+      "rules": 12,
+      "rule_atoms": 6,
+      "distinct_ranks": 4,
+      "patterns_total": 64,
+      "patterns_realisable": 64,
+      "applicable_rule_set_classes": 10,
+      "empty_applicable_patterns": 0,
+      "validator_violations": [],
+      "csv_holdout": {
+        "n": 175,
+        "agree": 175,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0,
+        "vacuous": 0
+      },
+      "lp_instances": {
+        "n": 699,
+        "agree": 699,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0,
+        "vacuous": 0
+      },
+      "pattern_space": {
+        "n": 64,
+        "agree": 64,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0,
+        "vacuous": 0
+      },
+      "pattern_space_realisable": {
+        "n": 64,
+        "agree": 64,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0
+      },
+      "msw_accuracy_csv": 0.9428571428571428,
+      "msw_accuracy_lp": 0.949928469241774,
+      "divergences": []
+    },
+    {
+      "name": "mushroom",
+      "rules": 13,
+      "rule_atoms": 10,
+      "distinct_ranks": 3,
+      "patterns_total": 1024,
+      "patterns_realisable": 512,
+      "applicable_rule_set_classes": 11,
+      "empty_applicable_patterns": 0,
+      "validator_violations": [],
+      "csv_holdout": {
+        "n": 2031,
+        "agree": 2031,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0,
+        "vacuous": 0
+      },
+      "lp_instances": {
+        "n": 8124,
+        "agree": 8124,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0,
+        "vacuous": 0
+      },
+      "pattern_space": {
+        "n": 1024,
+        "agree": 1024,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0,
+        "vacuous": 0
+      },
+      "pattern_space_realisable": {
+        "n": 512,
+        "agree": 512,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0
+      },
+      "msw_accuracy_csv": 0.999015263417036,
+      "msw_accuracy_lp": 0.999015263417036,
+      "divergences": []
+    },
+    {
+      "name": "bank",
+      "rules": 21,
+      "rule_atoms": 14,
+      "distinct_ranks": 3,
+      "patterns_total": 16384,
+      "patterns_realisable": 2880,
+      "applicable_rule_set_classes": 17,
+      "empty_applicable_patterns": 0,
+      "validator_violations": [],
+      "csv_holdout": {
+        "n": 11303,
+        "agree": 11303,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0,
+        "vacuous": 0
+      },
+      "lp_instances": {
+        "n": 45211,
+        "agree": 45211,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0,
+        "vacuous": 0
+      },
+      "pattern_space": {
+        "n": 16384,
+        "agree": 16384,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0,
+        "vacuous": 0
+      },
+      "pattern_space_realisable": {
+        "n": 2880,
+        "agree": 2880,
+        "disagree": 0,
+        "both_abstain": 0,
+        "agreement_pct": 1.0
+      },
+      "msw_accuracy_csv": 0.8974608511014774,
+      "msw_accuracy_lp": 0.897524938621132,
+      "divergences": []
+    }
+  ],
+  "sat": {
+    "cancer": {
+      "base_rank_calls": 23,
+      "naive_total_calls": 360,
+      "naive_mean_calls": 5.625,
+      "naive_max_calls": 12,
+      "shipped_total_calls": 400,
+      "shipped_mean_calls": 6.25,
+      "shipped_max_calls": 9,
+      "collapsed_total_calls": 64,
+      "collapsed_mean_calls": 6.4,
+      "collapsed_max_calls": 9,
+      "peak_clause_set_size": 19,
+      "wall_clock_naive_s": 0.0073557000014261575,
+      "wall_clock_shipped_s": 0.004948200001308578,
+      "wall_clock_collapsed_s": 0.0010830999999598134
+    },
+    "mushroom": {
+      "base_rank_calls": 24,
+      "naive_total_calls": 5440,
+      "naive_mean_calls": 5.3125,
+      "naive_max_calls": 9,
+      "shipped_total_calls": 6144,
+      "shipped_mean_calls": 6.0,
+      "shipped_max_calls": 6,
+      "collapsed_total_calls": 66,
+      "collapsed_mean_calls": 6.0,
+      "collapsed_max_calls": 6,
+      "peak_clause_set_size": 24,
+      "wall_clock_naive_s": 0.16358250000121188,
+      "wall_clock_shipped_s": 0.11659180000060587,
+      "wall_clock_collapsed_s": 0.005813699999634991
+    },
+    "bank": {
+      "base_rank_calls": 46,
+      "naive_total_calls": 92160,
+      "naive_mean_calls": 5.625,
+      "naive_max_calls": 9,
+      "shipped_total_calls": 98304,
+      "shipped_mean_calls": 6.0,
+      "shipped_max_calls": 6,
+      "collapsed_total_calls": 102,
+      "collapsed_mean_calls": 6.0,
+      "collapsed_max_calls": 6,
+      "peak_clause_set_size": 36,
+      "wall_clock_naive_s": 5.623785600000701,
+      "wall_clock_shipped_s": 3.2443951000004745,
+      "wall_clock_collapsed_s": 0.1026849999998376
+    }
+  },
+  "scholarship": {
+    "result": {
+      "name": "scholarship",
+      "rules": 5,
+      "rule_atoms": 5,
+      "distinct_ranks": 3,
+      "patterns_total": 32,
+      "patterns_realisable": 32,
+      "applicable_rule_set_classes": 9,
+      "empty_applicable_patterns": 12,
+      "validator_violations": [
+        "strict closure: rules r1 and r5 have opposite labels and can both apply, but neither body is strictly more specific than the other",
+        "strict closure: rules r2 and r4 have opposite labels and can both apply, but neither body is strictly more specific than the other",
+        "strict closure: rules r3 and r5 have opposite labels and can both apply, but neither body is strictly more specific than the other"
+      ],
+      "csv_holdout": null,
+      "lp_instances": null,
+      "pattern_space": {
+        "n": 32,
+        "agree": 19,
+        "disagree": 1,
+        "both_abstain": 12,
+        "agreement_pct": 0.96875,
+        "vacuous": 0
+      },
+      "pattern_space_realisable": {
+        "n": 32,
+        "agree": 19,
+        "disagree": 1,
+        "both_abstain": 12,
+        "agreement_pct": 0.96875
+      },
+      "msw_accuracy_csv": null,
+      "msw_accuracy_lp": null,
+      "divergences": [
+        {
+          "dataset": "scholarship",
+          "population": "pattern_space",
+          "key": "p31",
+          "pattern": "a(1) & a(2) & a(3) & a(4) & a(5)",
+          "msw_label": null,
+          "rc_label": 1,
+          "vacuous": false
+        }
+      ]
+    },
+    "instance_a_trace": "--- pattern Instance A ---\nECCRS side  (pattern a(1) & ~a(2) & ~a(3) & a(4) & a(5))\n  r1: a(1) => 1   [overridden by r2, r3]\n  r2: a(1) & a(4) => 0   [overridden by r3]\n  r3: a(1) & a(4) & a(5) => 1   [MAXIMAL]\n  MSW: label = 1\n\nRC side\n  query 1:  F |~ m     (supports class 1)\n  query 2:  F |~ ~m    (supports class 0)\n  br(F) = 2, br(F & m) = 2, br(F & ~m) = inf\n  br(F) < br(F & ~m) holds -> RC entails class 1\n  decisive conditionals at rank 2, from ECCRS rules: r3\n  => AGREE"
+  }
+}

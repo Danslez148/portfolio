@@ -1,0 +1,8 @@
+# Scholarship ruleset -- algorithms.md 4.2, Literature Review 2.3.
+# a(1) high GPA, a(2) financial need, a(3) community service,
+# a(4) disciplinary flag, a(5) research project.
+r1: IF a(1)=1 THEN y=1
+r2: IF a(1)=1 & a(4)=1 THEN y=0
+r3: IF a(1)=1 & a(4)=1 & a(5)=1 THEN y=1
+r4: IF a(2)=1 & a(3)=1 THEN y=1
+r5: IF a(2)=1 & a(3)=1 & a(4)=1 THEN y=0

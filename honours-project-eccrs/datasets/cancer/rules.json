@@ -1,0 +1,317 @@
+{
+  "dataset": "cancer",
+  "n_rules": 12,
+  "mode": "tree",
+  "rules": [
+    {
+      "idx": 0,
+      "label": 1,
+      "support": 26,
+      "correct": 25,
+      "body": [
+        {
+          "feat": "a(2)",
+          "val": 0
+        },
+        {
+          "feat": "a(4)",
+          "val": 1
+        },
+        {
+          "feat": "a(7)",
+          "val": 1
+        },
+        {
+          "feat": "a(8)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(2)=0 & a(4)=1 & a(7)=1 & a(8)=0 THEN y=1"
+    },
+    {
+      "idx": 1,
+      "label": 1,
+      "support": 23,
+      "correct": 23,
+      "body": [
+        {
+          "feat": "a(2)",
+          "val": 0
+        },
+        {
+          "feat": "a(4)",
+          "val": 1
+        },
+        {
+          "feat": "a(7)",
+          "val": 0
+        },
+        {
+          "feat": "a(8)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(2)=0 & a(4)=1 & a(7)=0 & a(8)=0 THEN y=1"
+    },
+    {
+      "idx": 2,
+      "label": 1,
+      "support": 23,
+      "correct": 23,
+      "body": [
+        {
+          "feat": "a(1)",
+          "val": 0
+        },
+        {
+          "feat": "a(2)",
+          "val": 1
+        },
+        {
+          "feat": "a(4)",
+          "val": 0
+        },
+        {
+          "feat": "a(5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(1)=0 & a(2)=1 & a(4)=0 & a(5)=0 THEN y=1"
+    },
+    {
+      "idx": 3,
+      "label": 0,
+      "support": 29,
+      "correct": 20,
+      "body": [
+        {
+          "feat": "a(1)",
+          "val": 1
+        },
+        {
+          "feat": "a(2)",
+          "val": 1
+        },
+        {
+          "feat": "a(5)",
+          "val": 0
+        },
+        {
+          "feat": "a(7)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(1)=1 & a(2)=1 & a(5)=0 & a(7)=1 THEN y=0"
+    },
+    {
+      "idx": 4,
+      "label": 1,
+      "support": 13,
+      "correct": 12,
+      "body": [
+        {
+          "feat": "a(1)",
+          "val": 0
+        },
+        {
+          "feat": "a(2)",
+          "val": 1
+        },
+        {
+          "feat": "a(4)",
+          "val": 1
+        },
+        {
+          "feat": "a(5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(1)=0 & a(2)=1 & a(4)=1 & a(5)=0 THEN y=1"
+    },
+    {
+      "idx": 5,
+      "label": 1,
+      "support": 9,
+      "correct": 8,
+      "body": [
+        {
+          "feat": "a(1)",
+          "val": 1
+        },
+        {
+          "feat": "a(2)",
+          "val": 1
+        },
+        {
+          "feat": "a(5)",
+          "val": 0
+        },
+        {
+          "feat": "a(7)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(1)=1 & a(2)=1 & a(5)=0 & a(7)=0 THEN y=1"
+    },
+    {
+      "idx": 6,
+      "label": 1,
+      "support": 330,
+      "correct": 330,
+      "body": [
+        {
+          "feat": "a(2)",
+          "val": 0
+        },
+        {
+          "feat": "a(4)",
+          "val": 0
+        },
+        {
+          "feat": "a(8)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(2)=0 & a(4)=0 & a(8)=0 THEN y=1"
+    },
+    {
+      "idx": 7,
+      "label": 0,
+      "support": 38,
+      "correct": 21,
+      "body": [
+        {
+          "feat": "a(1)",
+          "val": 1
+        },
+        {
+          "feat": "a(2)",
+          "val": 1
+        },
+        {
+          "feat": "a(5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(1)=1 & a(2)=1 & a(5)=0 THEN y=0"
+    },
+    {
+      "idx": 8,
+      "label": 1,
+      "support": 7,
+      "correct": 6,
+      "body": [
+        {
+          "feat": "a(2)",
+          "val": 1
+        },
+        {
+          "feat": "a(5)",
+          "val": 1
+        },
+        {
+          "feat": "a(7)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(2)=1 & a(5)=1 & a(7)=0 THEN y=1"
+    },
+    {
+      "idx": 9,
+      "label": 1,
+      "support": 74,
+      "correct": 52,
+      "body": [
+        {
+          "feat": "a(2)",
+          "val": 1
+        },
+        {
+          "feat": "a(5)",
+          "val": 0
+        }
+      ],
+      "rule_str": "IF a(2)=1 & a(5)=0 THEN y=1"
+    },
+    {
+      "idx": 10,
+      "label": 0,
+      "support": 5,
+      "correct": 3,
+      "body": [
+        {
+          "feat": "a(2)",
+          "val": 0
+        },
+        {
+          "feat": "a(8)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(2)=0 & a(8)=1 THEN y=0"
+    },
+    {
+      "idx": 11,
+      "label": 0,
+      "support": 315,
+      "correct": 237,
+      "body": [
+        {
+          "feat": "a(2)",
+          "val": 1
+        }
+      ],
+      "rule_str": "IF a(2)=1 THEN y=0"
+    }
+  ],
+  "exception_pairs": [
+    {
+      "general_rule_idx": 7,
+      "specific_rule_idx": 5,
+      "general_rule": "IF a(1)=1 & a(2)=1 & a(5)=0 THEN y=0",
+      "specific_rule": "IF a(1)=1 & a(2)=1 & a(5)=0 & a(7)=0 THEN y=1"
+    },
+    {
+      "general_rule_idx": 9,
+      "specific_rule_idx": 3,
+      "general_rule": "IF a(2)=1 & a(5)=0 THEN y=1",
+      "specific_rule": "IF a(1)=1 & a(2)=1 & a(5)=0 & a(7)=1 THEN y=0"
+    },
+    {
+      "general_rule_idx": 9,
+      "specific_rule_idx": 7,
+      "general_rule": "IF a(2)=1 & a(5)=0 THEN y=1",
+      "specific_rule": "IF a(1)=1 & a(2)=1 & a(5)=0 THEN y=0"
+    },
+    {
+      "general_rule_idx": 11,
+      "specific_rule_idx": 2,
+      "general_rule": "IF a(2)=1 THEN y=0",
+      "specific_rule": "IF a(1)=0 & a(2)=1 & a(4)=0 & a(5)=0 THEN y=1"
+    },
+    {
+      "general_rule_idx": 11,
+      "specific_rule_idx": 4,
+      "general_rule": "IF a(2)=1 THEN y=0",
+      "specific_rule": "IF a(1)=0 & a(2)=1 & a(4)=1 & a(5)=0 THEN y=1"
+    },
+    {
+      "general_rule_idx": 11,
+      "specific_rule_idx": 5,
+      "general_rule": "IF a(2)=1 THEN y=0",
+      "specific_rule": "IF a(1)=1 & a(2)=1 & a(5)=0 & a(7)=0 THEN y=1"
+    },
+    {
+      "general_rule_idx": 11,
+      "specific_rule_idx": 8,
+      "general_rule": "IF a(2)=1 THEN y=0",
+      "specific_rule": "IF a(2)=1 & a(5)=1 & a(7)=0 THEN y=1"
+    },
+    {
+      "general_rule_idx": 11,
+      "specific_rule_idx": 9,
+      "general_rule": "IF a(2)=1 THEN y=0",
+      "specific_rule": "IF a(2)=1 & a(5)=0 THEN y=1"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "strict_global_closure": true,
+  "strict_global_closure_violations": [],
+  "sanity": true,
+  "sanity_violations": [],
+  "no_total_override": true,
+  "no_total_override_failed_rule_indices": [],
+  "z3_available_for_witness_check": true
+}

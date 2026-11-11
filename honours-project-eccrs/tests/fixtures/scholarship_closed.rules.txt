@@ -1,0 +1,7 @@
+# The high-GPA branch of the scholarship ruleset on its own: default, exception,
+# exception-to-exception. Unlike the full five-rule set it DOES satisfy all three
+# alignment-theorem assumptions (see test_validator.py), so it serves as the positive
+# control for the alignment theorem over a complete feature space.
+r1: IF a(1)=1 THEN y=1
+r2: IF a(1)=1 & a(4)=1 THEN y=0
+r3: IF a(1)=1 & a(4)=1 & a(5)=1 THEN y=1

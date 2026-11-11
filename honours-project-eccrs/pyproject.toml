@@ -1,0 +1,30 @@
+[project]
+name = "eccrs-workbench"
+version = "0.1.0"
+description = "Translates ECCRS rulesets into KLM knowledge bases and verifies Rational Closure against Most-Specific-Wins."
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 90
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 90
+target-version = "py310"
+
+[tool.ruff.lint]
+# E/F: pycodestyle + pyflakes. I: import order. UP: modern syntax.
+# B: bugbear (real bug patterns). SIM: simplifications.
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]

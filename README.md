@@ -9,6 +9,7 @@ The code in each project is kept as it was submitted or last worked on. I've onl
 
 | Project | What it is | Tech | Year |
 |---|---|---|---|
+| [honours-project-eccrs](honours-project-eccrs/) | **Honours research project (CSC4002W).** Verifies an explainable rule-based classifier (ECCRS, Most-Specific-Wins) against Rational Closure from non-monotonic logic: checks the theorem's conditions, translates rulesets into KLM knowledge bases, and implements BaseRank, RC entailment and a DPLL SAT solver from scratch. RC and MSW agree on every instance and pattern across three real datasets. 2.8k lines plus 2.4k lines of pytest tests. | Python, logic, pytest | 2026 |
 | [wireguard-chat](wireguard-chat/) | Encrypted multi-user chat client with my own implementation of the WireGuard / Noise IK handshake. Team of 3; I built the async UI controller and message stores. | Python, asyncio, PyQt6, CI linting | 2026 |
 | [IntelAfrica / AfriMarket prototype](https://github.com/Danslez148/NVP_prototype) ↗ | Market-search and trading dashboard for African commerce, with an interactive D3 map. [Live demo](https://intelafrica-eight.vercel.app) | React, Vite, D3 | 2026 |
 | [house-of-gains-unity](house-of-gains-unity/) | Casino-themed mini-games (Higher/Lower, Roulette) and an in-game economy for a Unity game. Team of 4; my scripts. | C#, Unity | 2026 |
@@ -35,7 +36,8 @@ The code in each project is kept as it was submitted or last worked on. I've onl
 - **Languages:** Java, Python, C#, JavaScript (React), SQL, Clingo (ASP), GLSL, MIPS assembly
 - **Concurrency and parallelism:** threads, Fork/Join, latches, monitors, asyncio
 - **Networking and security:** sockets (TCP/UDP), custom protocol design, WireGuard/Noise cryptography
-- **Graphics, games and AI:** OpenGL/GLSL, Unity, answer set programming
+- **Graphics and games:** OpenGL/GLSL, Unity
+- **Logic and AI:** non-monotonic reasoning (KLM, Rational Closure), SAT solving, answer set programming
 - **Engineering practice:** Git and GitHub team workflows (branches, PRs), CI linting, unit tests (pytest, JUnit), Maven, Makefiles
 
 ## Contact
