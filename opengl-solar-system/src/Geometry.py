@@ -1,5 +1,9 @@
 import os
-os.environ['PYOPENGL_PLATFORM'] = 'glx'
+import sys
+
+# GLX only exists on Linux; on Windows and macOS let PyOpenGL pick its default platform.
+if sys.platform.startswith('linux'):
+    os.environ.setdefault('PYOPENGL_PLATFORM', 'glx')
 
 import numpy as np
 import warnings

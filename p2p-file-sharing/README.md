@@ -1,5 +1,11 @@
 > **Portfolio context:** CSC3002F Networks assignment, UCT (2025). Team project (3 members) built in a shared GitHub repo. The project report is in `ReportNetworks1.pdf`.
 
+> **⚠️ Known issues (code kept as submitted):** the tracker → seeder → leecher flow works, but downloads are not correct for real files.
+> - `SeederClass.py` registers every file with a hardcoded size of 5 bytes (`self.SeederUDPClient('test.txt', 5)`), so the leecher only requests the first few bytes: a 20 KB file downloads as 6 bytes.
+> - The seeder serves `test.txt` and the leecher writes to `output/`; neither is in the repo, so create both before running.
+> - `TrackerClass.py`, `SeederClass.py` and `LeecherClass.py` have no entry point, so running them directly (steps 1–3 below) does nothing. Start everything through `python TorrentUI.py`, which launches the tracker and two seeders itself.
+> - The clone command below points at the original team repository.
+
 # P2P File Sharing System
 
 ## Overview

@@ -5,12 +5,10 @@ An animated, textured Sun–Earth–Moon system rendered with modern OpenGL: han
 **Context:** Computer Graphics module, UCT Honours (2026). Individual.
 **Tech:** Python, PyOpenGL, pygame, pyrr (matrix maths), NumPy, GLSL.
 
----
-SCHDAN066
+## Run
 
-Setup assumes that you are using a UNIX-based OS with python3 and python3-venv installed.
-
-To build the virtual environment and install necessary packages:
+### Linux / macOS
+Needs python3 and python3-venv. To build the virtual environment and install the packages:
 
 ```
 > make
@@ -28,15 +26,25 @@ To run the code:
 > python ./src/main.py
 ```
 
-To control the animation:
+### Windows
+```
+> python -m venv venv
+> venv\Scripts\activate
+> pip install -r requirements.txt
+> python src\main.py
+```
+`PyOpenGL_accelerate` (in `post_requirements.txt`) is an optional speed-up and can be skipped on Windows. The project was developed and tested on Linux.
+
+### Controls
 
 | Key   | Action                |
+|-------|-----------------------|
 | Space | Start / stop          |
 | E / D | Earth faster / slower |
 | R / F | Moon faster / slower  |
 | Q     | Quit                  |
 | 1 / 2 | Toggle lights         |
-|UP/DOWN/LEFT/RIGHT| Pan camera |
+| Arrow keys | Pan camera |
 
 References:
 

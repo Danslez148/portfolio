@@ -12,4 +12,7 @@ cd src
 javac *.java
 java SimulatorOne < input.txt
 ```
+
+> **⚠️ Known issue:** the command above does not work as-is, because `input.txt` is not included in the repo. The program itself runs correctly when given an input file in the format below, so write your own `input.txt` first.
+
 Input format: number of nodes, then one line per node (`node dest weight dest weight …`), then the shop count and nodes, then the client count and nodes.

@@ -14,3 +14,6 @@ Generates random, always-solvable dungeon levels with **Answer Set Programming**
 pip install clingo
 python game.py
 ```
+On Windows, Python doesn't include `curses`, so also run `pip install windows-curses`.
+
+Generating a level takes about 10 seconds. Move with the arrow keys and press `q` to quit.

@@ -7,7 +7,7 @@ t_WORD = r'[a-zA-Z]+'
 t_NUMBER = r'[0-9]+'
 t_WHITESPACE = r'[\s\t]+'
 t_PUNCTUATION = r'[.,;!?]'
-t_HASHTAG = r'#[a-zA-Z0-9]+'
+t_HASHTAG = r'\#[a-zA-Z0-9]+'  # '#' must be escaped: PLY compiles rules in verbose mode, where '#' starts a comment
 t_NAME = r'@[a-zA-Z]+'
 t_ILLEGAL = r'.'
 
